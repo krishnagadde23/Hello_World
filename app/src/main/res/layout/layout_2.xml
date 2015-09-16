@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <View
+            android:id="@+id/tv1"
+            android:background="@color/foo"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40pt"
+            android:layout_marginRight="25pt"/>
+
+        <View
+            android:id="@+id/tv2"
+            android:background="@color/foo"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="65pt"/>
+
+        <View
+            android:id="@+id/tv3"
+            android:background="@color/foo"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="60pt"
+            android:layout_marginBottom="85pt"/>
+
+        <View
+            android:id="@+id/tv4"
+            android:background="@color/foo"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="55pt"
+            android:layout_marginLeft="15pt"/>
+</RelativeLayout>

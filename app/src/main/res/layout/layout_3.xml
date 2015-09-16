@@ -9,7 +9,9 @@
         android:layout_height="100dp"
         android:layout_width="100dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60pt"
+        android:layout_marginRight="40pt"/>
 
     <View
         android:id="@+id/tv2"
@@ -17,15 +19,19 @@
         android:layout_height="100dp"
         android:layout_width="100dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"/>
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="95pt"
+        android:layout_marginTop="75pt"/>
 
     <View
         android:id="@+id/tv3"
-        android:background="@color/foo"
+        android:background="@color/foo1"
         android:layout_height="100dp"
         android:layout_width="100dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60pt"
+        android:layout_marginBottom="85pt"/>
 
     <View
         android:id="@+id/tv4"
